@@ -1,0 +1,440 @@
+*
+    margin: 0
+    padding: 0
+
+body
+    background: #ffffff
+    font-family: "Rubik", arial, sans-serif
+    font-weight: 300
+    font-size: 16px
+    line-height: 2
+    color: gray
+    min-width: 840px
+
+a, a:hover
+    text-decoration: none
+
+
+h1, h2, h3, h4, h5 
+  color: #000
+  font-family: "Rubik", arial, sans-serif
+  font-weight: 300
+
+.container
+    width: 1100px
+
+.btn
+    width: 100px
+    height: 40px
+    background-color: #11CBD7
+    color: #ffffff
+    border: none
+    border-radius: 5px
+    font-weight: 500
+    text-decoration: none
+    outline: none
+    &:hover
+        background-color: #1E90FF
+    &:focus
+        background-color: #6495ED
+
+.form-control 
+    outline: none
+    outline-offset: none
+    border: none
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
+    border-radius: 0
+    &:form-control:focus,&:active 
+        outline: none
+    font-size: 18px
+    color: gray
+
+
+header
+    display: flex
+    justify-content: center
+    height: 84px
+    nav
+        display: flex
+        justify-content: space-between
+    .nav-item
+        display: flex
+        align-items: center
+    h1
+        letter-spacing: 5px
+    ul
+        padding: 0
+        margin: 0
+        display: flex
+        list-style-type: none
+        li
+            display: block
+            margin: 10px
+            a
+                color: black
+    .login>a
+        margin: 0 10px
+        color: #11CBD7
+
+main
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+.background_block
+    width: 100%
+    background-image: url("../img/register_background.jpg")
+    background-repeat: no-repeat
+    background-position: center center
+    background-attachment: fixed
+    background-size: cover
+    display: flex
+    justify-content: center
+
+.gray-background_block
+    width: 100%
+    background-color: #f8f9fa
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.register_block
+    height: 853px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    .title
+        h2
+            font-size: 40px
+            color: #ffffff
+            margin-bottom: 24px
+    .form 
+        background-color: #ffffff
+        margin-bottom: 24px
+        width: 770px
+        height: 80px
+        box-shadow: 0 0 10px rgba(0,0,0,0.5)
+        padding: 10px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        .separator
+            width: 2px
+            height: 50px
+            background-color: gray
+    .info
+        margin-bottom: 48px
+        p
+            color: #ffffff
+            font-size: 16px
+    .accept>button
+        width: 200px
+        height: 60px
+
+.welcome_block
+    display: flex
+    height: 530px
+    .left
+        display: flex
+        flex-direction: column
+        justify-content: center
+        width: 50%
+        h2
+            color: #11CBD7
+            font-size: 45px
+        p
+            font-size: 16px
+            margin-bottom: 16px
+        .btn
+            width: 130px
+    .right
+        width: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        img 
+            width: 450px
+            height: 270px
+
+.attractions_block
+    height: 300px
+    display: flex
+    padding: 16px 0 80px 0
+    .item
+        width: 25%
+        h3
+            font-size: 20px
+            margin: 0 0 8px
+            color: #000000
+        p
+            font-size: 16px
+            margin: 0 0 16px
+            color: #808080
+        a
+            font-size: 16px
+            color: #11CBD7
+
+.educationlife_block
+    display: flex
+    height: 420px
+    padding: 80px 0
+    .left
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 50%
+        img
+            width: 450px
+            height: 400px
+    .right
+        width: 50%
+        padding-left: 60px
+        .top
+            h2
+                color: #11CBD7
+                font-size: 45px
+            p
+                margin-bottom: 16px
+        .bottom
+            display: flex
+            flex-direction: column
+            .first-line, .second-line
+                display: flex
+                width: 100%
+            .item
+                display: flex
+                width: 220px
+                height: 100px
+                img
+                    margin-top: 5px
+                    margin-right: 15px
+                h4
+                    font-size: 40px
+                    color: #11CBD7
+                    line-height: 50px    
+                p
+                    padding-left: 5px
+
+.blog
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .top
+        text-align: center
+        width: 540px
+        margin-bottom: 48px
+        h2
+            font-size: 45px
+            margin-bottom: 8px
+            color: #11CBD7
+        p
+            margin-bottom: 16px
+    .bottom
+        display: flex
+        margin-bottom: 50px
+    .left 
+        background: #fff
+        width: 500px
+        -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.2)
+        box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.2)
+        img
+            width: 500px
+
+
+    .left .text 
+        padding: 20px
+
+
+    .left .text .heading 
+        font-size: 20px
+        margin-bottom: 15px
+        line-height: 1.5
+
+
+    .left .text .heading a 
+        color: #000
+
+
+    .left .text .heading a:hover,
+    .left .text .heading a:focus,
+    .left .text .heading a:active 
+        color: #11cbd7
+
+
+    .left .meta>div 
+        display: inline-block
+        margin-right: 15px
+        margin-bottom: 5px
+        font-size: 15px
+
+
+    .left .meta>div a 
+        color: #b3b3b3
+
+
+    .left .meta>div a:hover 
+        color: #4d4d4d
+
+    .right
+        width: 500px
+        padding-left: 50px
+        display: flex
+        flex-direction: column
+
+    .item
+        display: flex
+        margin: 15px 0
+        img
+            width: 155px
+            height: 80px
+            object-fit: cover
+            margin-right: 20px
+
+
+    .item figure 
+        -webkit-box-flex: 0
+
+
+    .item figure img 
+        -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.7)
+        box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.7)
+
+
+    .item .text .heading 
+        font-size: 18px
+        font-weight: 300
+        line-height: 1.5
+
+
+    .item .text .heading a 
+        color: #000
+
+
+    .item .text .heading a:hover,
+    .item .text .heading a:active,
+    .item .text .heading a:focus 
+        color: #11cbd7;
+
+
+    .item .text .meta>div 
+        display: inline-block
+        font-size: 13px
+        margin-right: 10px
+
+
+    .item .text .meta>div a 
+        color: #cccccc
+
+
+    .item .text .meta>div a:hover 
+        color: gray
+
+.blue-background_block
+    background-color: #11cbd7
+    width: 100%
+    display: flex
+    justify-content: center
+
+.subscribe
+    height: 240px
+    display: flex
+    align-items: center
+    h2, p
+        color: #ffffff
+    h2
+        font-size: 30px
+    .left
+        width: 50%
+        padding-right: 80px
+        padding-left: 30px
+    .right
+        width: 50%
+        .wblock
+            background-color: #ffffff
+            border: none
+            border-radius: 5px
+            width: 450px
+            height: 50px
+            display: flex
+            align-items: center
+            justify-content: space-between
+        .form-control
+            margin-left: 10px
+        .btn
+            margin-right: 10px
+    
+footer
+    display: flex
+    justify-content: center
+    .footer
+        height: 500px
+        display: flex
+        .col
+            margin-top: 100px
+            width: 25%
+            flex-grow: 1
+            padding: 20px
+        .quick-links
+            ul
+                margin-left: 15px
+        .fblog
+            div
+                margin: 15px 0
+        .fcontact
+            li
+                margin: 20px 0 20px 15px
+    
+@media screen and (max-width: 1100px) 
+    .container
+        width: 100%
+    .blog > .bottom
+        flex-direction: column
+        .right
+            padding-left: 0
+    .educationlife_block
+        flex-direction: column
+        height: auto
+        justify-content: center
+        align-items: center
+        .right
+            margin-top: 20px
+            padding: 0
+    .subscribe
+        height: auto
+        flex-direction: column
+        .left
+            text-align: center
+            padding: 0
+            margin-bottom: 10px
+        .right
+            margin-bottom: 20px
+            width: 50%
+            .wblock
+                width: 100%
+    .welcome_block
+        height: auto
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .right
+            margin: 40px 0
+    .attractions_block
+        height: auto
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .item
+            margin: 20px 0
+            text-align: center
+    .educationlife_block
+        .bottom
+            .first-line, .second-line
+                margin-left: -20px
+                flex-direction: column
+                justify-content: center
+                align-items: center
